@@ -1,0 +1,30 @@
+{
+  "name": "quasar-easy-validate",
+  "version": "1.0.0",
+  "description": "Validation package that can be used with quasar's :rule prop",
+  "main": "dist/validator.js",
+  "scripts": {
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "build": "cross-env rimraf dist && npx tsc"
+  },
+  "private": false,
+  "types": "dist/validator.d.ts",
+  "keywords": [
+    "validation",
+    "quasar",
+    "vue"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Uros Minic",
+  "license": "ISC",
+  "prepare": "rimraf dist && npx tsc",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  }
+}
