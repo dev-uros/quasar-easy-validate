@@ -1,6 +1,6 @@
 {
   "name": "quasar-easy-validate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validation package that can be used with quasar's :rule prop",
   "main": "dist/validator.js",
   "scripts": {
